@@ -1,0 +1,20 @@
+plugins {
+    // Apply the application plugin to add support for building a CLI application in Java.
+    id 'java'
+    id 'application'
+}
+
+dependencies {    
+    implementation project(':lib')
+}
+
+application {
+    // Define the main class for the application.
+    mainClass = 'LockBreaker.Hacker'
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'LockBreaker.Hacker'
+    }
+}
