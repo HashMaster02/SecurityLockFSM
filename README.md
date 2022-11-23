@@ -41,7 +41,7 @@ gradle jar
 
 4. Run the executable:
 ```
-java -jar ./lib/build/libs/app.jar
+java -jar ./lib/build/libs/lib.jar
 ```
 Enter characters from the keyboard, one at a time, followed
 by Enter/Return. Entering the sequence **898531** and **898534** will Lock and Unlock the device respectively.
@@ -50,12 +50,12 @@ by Enter/Return. Entering the sequence **898531** and **898534** will Lock and U
 
   You could also put data in a file and feed that data to the application, like this:
 ```
-cat mydata | java -jar ./app/build/libs/app.jar
+cat mydata | java -jar ./lib/build/libs/lib.jar
 ```
 
  or like this:
 ```
-java -jar ./app/build/libs/app.jar < mydata
+java -jar ./lib/build/libs/lib.jar < mydata
 ```
 
 5. Generate jacoco unit-test coverage report:
