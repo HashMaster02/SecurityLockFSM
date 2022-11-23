@@ -2,7 +2,6 @@ package LockBreaker;
 
 import java.util.Random;
 import java.util.Scanner;
-import SecurityLockFSM.FSM;
 
 public class Hacker {
 	
