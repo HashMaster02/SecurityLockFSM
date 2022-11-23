@@ -50,6 +50,16 @@ public class FSM {
 		return current_output;
 	}
 	
+	public void lockDevice()
+	{
+		input(8);
+		input(9);
+		input(8);
+		input(5);
+		input(3);
+		input(1);
+	}
+	
 	public void input(int in) {
 		int ns;	//next state from the stt
 		

@@ -83,10 +83,6 @@ The program will prompt you and ask for the number of times you would like to tr
 - The minimum number of digits it took to unlock the lock in a single attempt
 - The average number of digits it took to unlock the lock (this figure is more accurate the more attempts you have as it provides a bigger sample)
 
-### Known bugs ###
-
-* Entering anything other than an integer when prompted for the number of hack attempts will cause the program to crash
-
 ### License ###
 
 [GNU Public License](https://www.gnu.org/licenses/gpl-3.0.html)

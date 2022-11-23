@@ -57,5 +57,13 @@ public class FSMTest {
 		FSM machine = new FSM();
 		machine.input(-14);
 	}
+	
+	@Test
+	void check_if_lockDevice_method_locks_device()
+	{
+		FSM machine = new FSM();
+		machine.lockDevice();
+		assertEquals(1, machine.state());
+	}
 
 }
